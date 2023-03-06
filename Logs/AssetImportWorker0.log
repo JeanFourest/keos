@@ -486,3 +486,69 @@ Received Import Request.
   path: Assets/Sprites/Player
   artifactKey: Guid(768960febd6f846d792e86ff17e19b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Player using Guid(768960febd6f846d792e86ff17e19b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccf6b1a75bf24ca842e859be3aa169d') in 0.020816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 355.473492 seconds.
+  path: Assets/Sprites/enemies/1 Centipede
+  artifactKey: Guid(879b9d9dbb342408e9be6898e2b65158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede using Guid(879b9d9dbb342408e9be6898e2b65158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004cbd5090ebeb4e0f14153caac40e9a') in 0.002128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022898 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede.png
+  artifactKey: Guid(211309ccac059439d866f41d2c35e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede.png using Guid(211309ccac059439d866f41d2c35e31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a73896273822a1397bff41d7086ed4') in 0.060131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_death.png
+  artifactKey: Guid(c7ec95cdc364645d4b1cb63ad01d8547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_death.png using Guid(c7ec95cdc364645d4b1cb63ad01d8547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af52b0a56c5af245b0621a52df851952') in 0.007618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_attack2.png
+  artifactKey: Guid(c23f0d33551be4815bb58eafc3062eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_attack2.png using Guid(c23f0d33551be4815bb58eafc3062eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb3f84770cc99addf5111ccb0a935c3') in 0.007816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_sneer.png
+  artifactKey: Guid(07908f557e46d46579e93aa18bb558a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_sneer.png using Guid(07908f557e46d46579e93aa18bb558a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1041540dd284fdefab34ba6f025a75a') in 0.006020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_attack4.png
+  artifactKey: Guid(16e69928d75fa4f7d9b6fab4c1a1fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_attack4.png using Guid(16e69928d75fa4f7d9b6fab4c1a1fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1852907090518fe6780e227cbab68a7') in 0.007841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_hurt.png
+  artifactKey: Guid(7e668f8f142a3423883ea5a8e65416ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_hurt.png using Guid(7e668f8f142a3423883ea5a8e65416ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e329ffa98dbd4b4656683d7bef5ca') in 0.007802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_attack1.png
+  artifactKey: Guid(c16059ebe201d49928247da9540a3fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_attack1.png using Guid(c16059ebe201d49928247da9540a3fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0c54d0f98ad1a4a012881bc23a95f') in 0.007041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_idle.png
+  artifactKey: Guid(fa2ce5d1347644559a5a27a2c5c0be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_idle.png using Guid(fa2ce5d1347644559a5a27a2c5c0be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd09485b868744937fee241958aca82') in 0.006990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_walk.png
+  artifactKey: Guid(52a5cf16c7ce7499eaf96c34bdafce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_walk.png using Guid(52a5cf16c7ce7499eaf96c34bdafce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca505f95f0731f3f32eb9986bd4824f') in 0.006240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/enemies/1 Centipede/Centipede_attack3.png
+  artifactKey: Guid(822682d76d7a34f7e91401fead27a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/1 Centipede/Centipede_attack3.png using Guid(822682d76d7a34f7e91401fead27a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b0efd2a03f42881805f611b22d9a40') in 0.007681 seconds 
