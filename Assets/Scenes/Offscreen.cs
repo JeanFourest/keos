@@ -7,7 +7,9 @@ public class Offscreen : MonoBehaviour
 
     void OnBecameInvisible()
     {
+
         Destroy(gameObject);
+        
     }
 
     // Start is called before the first frame update
