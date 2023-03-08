@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     public Rigidbody2D player;
     public float hMove;
     public float vMove;
+    public GameObject projectilePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,14 @@ public class PlayerMove : MonoBehaviour
         {
 
             Flip();
-            
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+
         }
 
     }
