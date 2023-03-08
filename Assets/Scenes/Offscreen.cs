@@ -2,22 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjoMove : MonoBehaviour
+public class Offscreen : MonoBehaviour
 {
 
-    private int speed = 10;
+    private int limit = -30;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        transform.Translate(Vector2.left * Time.deltaTime * speed);
+        if (transform.position.x < limit)
+        {
+
+            Destroy(gameObject);
+
+        }
         
     }
 }
