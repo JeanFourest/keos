@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
 
+    bool facingRight = true;
     public int speed;
     public Rigidbody2D player;
     public float hMove;
@@ -23,11 +24,36 @@ public class PlayerMove : MonoBehaviour
         hMove = Input.GetAxis("Horizontal");
         vMove = Input.GetAxis("Vertical");
 
+        if (hMove > 0 && !facingRight)
+        {
+
+            Flip();
+
+        }
+        else if (hMove < 0 && facingRight)
+        {
+
+            Flip();
+            
+        }
+
     }
 
     private void FixedUpdate() {
 
         player.velocity = new Vector2(hMove * speed, vMove * speed);
 
-    } 
+    }
+
+    private void Flip()
+    {
+
+        facingRight = !facingRight;
+        Vector2 currentScale = transform.localScale;
+        currentScale.x *= -1;
+        transform.localScale = currentScale;
+
+    }
+
+
 }
