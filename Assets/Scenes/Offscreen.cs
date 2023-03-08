@@ -5,7 +5,10 @@ using UnityEngine;
 public class Offscreen : MonoBehaviour
 {
 
-    private int limit = -30;
+    void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -16,13 +19,6 @@ public class Offscreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (transform.position.x < limit)
-        {
-
-            Destroy(gameObject);
-
-        }
         
     }
 }
