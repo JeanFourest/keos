@@ -7,7 +7,7 @@ public class Enemy_Movement : MonoBehaviour
 {
     public int speed;
     public Transform playerTransform;
-    public float chaseDistance; 
+    private float chaseDistance = 100;
     public bool isChasing;
     public Animator animator;
 
