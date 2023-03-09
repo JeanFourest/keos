@@ -154,7 +154,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30362409}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
   m_Mass: 2.3404331
@@ -286,6 +286,7 @@ MonoBehaviour:
   animator: {fileID: 30362411}
   attackDistance: 2
   attackPower: 2
+  attackInterval: 1
 --- !u!61 &30362416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -441,7 +442,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068267508}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
   m_Mass: 1.7421676
@@ -573,6 +574,7 @@ MonoBehaviour:
   animator: {fileID: 1068267510}
   attackDistance: 2
   attackPower: 2
+  attackInterval: 1
 --- !u!61 &1068267515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -630,7 +632,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326856210}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
   m_Mass: 2.296661
@@ -762,6 +764,7 @@ MonoBehaviour:
   animator: {fileID: 1326856212}
   attackDistance: 2
   attackPower: 2
+  attackInterval: 1
 --- !u!61 &1326856217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -801,9 +804,10 @@ GameObject:
   - component: {fileID: 1559974894}
   - component: {fileID: 1559974895}
   - component: {fileID: 1559974896}
+  - component: {fileID: 1559974897}
   m_Layer: 0
   m_Name: Pink_Monster
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -868,7 +872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559974891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.76, y: -2.4, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -938,3 +942,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5737219, y: 0.9}
   m_EdgeRadius: 0
+--- !u!114 &1559974897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559974891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13922254595b442fbab77b2d5997804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
