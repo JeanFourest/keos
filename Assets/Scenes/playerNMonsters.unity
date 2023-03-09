@@ -138,6 +138,8 @@ GameObject:
   - component: {fileID: 30362415}
   - component: {fileID: 30362414}
   - component: {fileID: 30362416}
+  - component: {fileID: 30362417}
+  - component: {fileID: 30362418}
   m_Layer: 0
   m_Name: Battle_turtle
   m_TagString: Untagged
@@ -313,6 +315,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8692188, y: 1.2520915}
   m_EdgeRadius: 0
+--- !u!114 &30362417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30362409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4779bf174e0478f9bd59b5e5eec6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 3
+--- !u!114 &30362418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30362409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a102674a833f4ac0bddc38564401163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 100
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +455,8 @@ GameObject:
   - component: {fileID: 1068267514}
   - component: {fileID: 1068267513}
   - component: {fileID: 1068267515}
+  - component: {fileID: 1068267516}
+  - component: {fileID: 1068267517}
   m_Layer: 0
   m_Name: Centipede
   m_TagString: Untagged
@@ -601,6 +632,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5126114, y: 1.1517615}
   m_EdgeRadius: 0
+--- !u!114 &1068267516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068267508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4779bf174e0478f9bd59b5e5eec6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 3
+--- !u!114 &1068267517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068267508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a102674a833f4ac0bddc38564401163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 100
 --- !u!1 &1326856210
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +674,8 @@ GameObject:
   - component: {fileID: 1326856215}
   - component: {fileID: 1326856216}
   - component: {fileID: 1326856217}
+  - component: {fileID: 1326856218}
+  - component: {fileID: 1326856219}
   m_Layer: 0
   m_Name: Big_Boy
   m_TagString: Untagged
@@ -791,6 +851,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4810202, y: 1.5507289}
   m_EdgeRadius: 0
+--- !u!114 &1326856218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326856210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4779bf174e0478f9bd59b5e5eec6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 3
+--- !u!114 &1326856219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326856210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a102674a833f4ac0bddc38564401163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEnemy: 100
 --- !u!1 &1559974891
 GameObject:
   m_ObjectHideFlags: 0
