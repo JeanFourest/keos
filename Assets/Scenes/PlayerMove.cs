@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
 
     bool facingRight = true;
-    private int speed = 2;
+    private int speed = 5;
     public Rigidbody2D player;
     public float hMove;
     public float vMove;
