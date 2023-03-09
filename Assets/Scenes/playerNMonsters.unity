@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 30362412}
   - component: {fileID: 30362411}
   - component: {fileID: 30362410}
+  - component: {fileID: 30362415}
+  - component: {fileID: 30362414}
   m_Layer: 0
   m_Name: Battle_turtle
   m_TagString: Untagged
@@ -251,6 +253,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30362414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30362409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c10708e0df44a09a9b1f0416241c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  playerTransform: {fileID: 1559974893}
+  chaseDistance: 3
+  isChasing: 0
+  animator: {fileID: 30362411}
+--- !u!114 &30362415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30362409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64570c97e465c414291937b4a4eda376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1559974893}
+  animator: {fileID: 30362411}
+  attackDistance: 2
+  attackPower: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +396,8 @@ GameObject:
   - component: {fileID: 1068267511}
   - component: {fileID: 1068267510}
   - component: {fileID: 1068267509}
+  - component: {fileID: 1068267514}
+  - component: {fileID: 1068267513}
   m_Layer: 0
   m_Name: Centipede
   m_TagString: Untagged
@@ -477,6 +514,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1068267513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068267508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c10708e0df44a09a9b1f0416241c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  playerTransform: {fileID: 1559974893}
+  chaseDistance: 2
+  isChasing: 0
+  animator: {fileID: 1068267510}
+--- !u!114 &1068267514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068267508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64570c97e465c414291937b4a4eda376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1559974893}
+  animator: {fileID: 1068267510}
+  attackDistance: 2
+  attackPower: 2
 --- !u!1 &1326856210
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   playerTransform: {fileID: 1559974893}
-  chaseDistance: 0
+  chaseDistance: 3
   isChasing: 0
   animator: {fileID: 1326856212}
 --- !u!114 &1326856216
@@ -636,6 +706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64570c97e465c414291937b4a4eda376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1559974893}
+  animator: {fileID: 1326856212}
+  attackDistance: 2
   attackPower: 2
 --- !u!1 &1559974891
 GameObject:
