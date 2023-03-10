@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64570c97e465c414291937b4a4eda376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 5474463282831445988, guid: adc68910c10cc4a8f8d1df776d6ba5a8, type: 3}
   animator: {fileID: 2267306509471737074}
   attackDistance: 2
   attackPower: 2
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 5474463282831445988, guid: adc68910c10cc4a8f8d1df776d6ba5a8, type: 3}
   isChasing: 0
   animator: {fileID: 2267306509471737074}
 --- !u!61 &2267306509471737065
