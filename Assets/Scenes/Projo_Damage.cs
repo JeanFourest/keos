@@ -21,7 +21,7 @@ public class Projo_Damage : MonoBehaviour
         
         if(collision.gameObject.TryGetComponent<Enemy_Health>(out Enemy_Health enemyComponent))
         {
-            enemyComponent.TakeDamageEnemy(1);
+            enemyComponent.TakeDamageEnemy(10);
             Destroy(gameObject);
         }
     }
