@@ -13,11 +13,12 @@ public class ProjoMove : MonoBehaviour
 
     }
 
+
     // Update is called once per frame
     void Update()
     {
 
-        transform.Translate(Vector2.left * Time.deltaTime * speed);
+        transform.position += transform.right * Time.deltaTime * speed;
         
     }
 }

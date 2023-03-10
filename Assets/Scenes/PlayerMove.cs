@@ -41,7 +41,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position, transform.rotation);
 
         }
 
@@ -57,10 +57,8 @@ public class PlayerMove : MonoBehaviour
     {
 
         facingRight = !facingRight;
-        Vector2 currentScale = transform.localScale;
-        currentScale.x *= -1;
-        transform.localScale = currentScale;
-
+        transform.localRotation *= Quaternion.Euler(x: 0, y: 180, z: 0);
+        
     }
 
 

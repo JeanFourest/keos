@@ -18,7 +18,6 @@ public class Projo_Damage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("test");
         
         if(collision.gameObject.TryGetComponent<Enemy_Health>(out Enemy_Health enemyComponent))
         {
