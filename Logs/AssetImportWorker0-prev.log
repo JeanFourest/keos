@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54923
+49313
 Successfully changed project path to: /Users/hywel/Projects/keos
 /Users/hywel/Projects/keos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/hywel/Projects/keos
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8246540928] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 887059028 [EditorId] 887059028 [Version] 1048832 [Id] OSXEditor(0,macbook-air-de-hywel.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8246540928] Host "[IP] 10.160.33.70 [Port] 0 [Flags] 2 [Guid] 4274434723 [EditorId] 4274434723 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Hywel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8246540928] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 887059028 [EditorId] 887059028 [Version] 1048832 [Id] OSXEditor(0,macbook-air-de-hywel.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8246540928] Host "[IP] 10.160.33.70 [Port] 0 [Flags] 2 [Guid] 4274434723 [EditorId] 4274434723 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Hywel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 103.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,37 +73,37 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56681
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004722 seconds.
+Registered in 0.001096 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 68.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.569 seconds
+- Completed reload, in  0.380 seconds
 Domain Reload Profiling:
-	ReloadAssembly (569ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (284ms)
-			LoadAssemblies (234ms)
+		EndReloadAssembly (279ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (61ms)
+			SetupTypeCache (62ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (174ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -111,36 +111,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005817 seconds.
+Registered in 0.005684 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 67.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
+- Completed reload, in  0.652 seconds
 Domain Reload Profiling:
-	ReloadAssembly (643ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (523ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (269ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (1ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadAttributes (131ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3740 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (Unknown). Loaded Objects now: 4199.
-Memory consumption went from 136.6 MB to 136.6 MB.
-Total: 2.295208 ms (FindLiveObjects: 0.117292 ms CreateObjectMapping: 0.043208 ms MarkObjects: 2.090833 ms  DeleteObjects: 0.043291 ms)
+Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (296.4 KB). Loaded Objects now: 4202.
+Memory consumption went from 137.0 MB to 136.7 MB.
+Total: 2.380667 ms (FindLiveObjects: 0.123708 ms CreateObjectMapping: 0.047208 ms MarkObjects: 2.078875 ms  DeleteObjects: 0.129959 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,121 +170,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1668088.108703 seconds.
-  path: Assets/Scenes/playerNMonsters.unity
-  artifactKey: Guid(bdc6da94c2fb64824ac347d06b0085b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/playerNMonsters.unity using Guid(bdc6da94c2fb64824ac347d06b0085b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e509196db22ac765ed121eb926c174dd') in 0.005065 seconds 
+  Time since last request: 1739321.212835 seconds.
+  path: Assets/Scenes/PlayerHealth.cs
+  artifactKey: Guid(e13922254595b442fbab77b2d5997804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerHealth.cs using Guid(e13922254595b442fbab77b2d5997804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce5bd0c44b99c2f23e4b4a4eefe3fec') in 0.923128 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001628 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x289ca7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
-Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (441ms)
-			LoadAssemblies (39ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (190ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3729 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 4202.
-Memory consumption went from 135.6 MB to 135.6 MB.
-Total: 2.247708 ms (FindLiveObjects: 0.110834 ms CreateObjectMapping: 0.045791 ms MarkObjects: 2.075167 ms  DeleteObjects: 0.015500 ms)
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/Projo_Damage.cs
+  artifactKey: Guid(4cde370e0a2eb44d781c1415db4c55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Projo_Damage.cs using Guid(4cde370e0a2eb44d781c1415db4c55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a1dbe7a22dfbb0b529a56b6e448d4b') in 0.001257 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001612 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16d93f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/hywel/Projects/keos/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.609 seconds
-Domain Reload Profiling:
-	ReloadAssembly (609ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (451ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (194ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3729 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 4205.
-Memory consumption went from 135.6 MB to 135.6 MB.
-Total: 2.509208 ms (FindLiveObjects: 0.119458 ms CreateObjectMapping: 0.045375 ms MarkObjects: 2.315834 ms  DeleteObjects: 0.028083 ms)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x1768c7710 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x176889c90 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x176812558 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x19054b2a4 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x106e9c180 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _ZN4asio6detail21resolver_service_base13base_shutdownEv
+	0x106e9a698 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _ZN4core10unique_ptrIN4asio10io_contextEED1Ev
+	0x106e85764 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _ZN9IOServiceD2Ev
+	0x106e00240 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _ZN23AssetImportWorkerClientD2Ev
+	0x106d90554 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _ZN4core10unique_ptrI23AssetImportWorkerClientED1Ev
+	0x19040805c - /usr/lib/system/libsystem_c.dylib : __cxa_finalize_ranges
+	0x190407df0 - /usr/lib/system/libsystem_c.dylib : exit
+	0x107741f8c - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : -[EditorApplication applicationShouldTerminate:]
+	0x193a9eb28 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication _docController:shouldTerminate:]
+	0x193a9e9d8 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : __91-[NSDocumentController(NSInternal) _closeAllDocumentsWithDelegate:shouldTerminateSelector:]_block_invoke
+	0x193a9e6d8 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSDocumentController(NSInternal) _closeAllDocumentsWithDelegate:shouldTerminateSelector:]
+	0x193a9e318 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSDocumentController(NSInternal) __closeAllDocumentsWithDelegate:shouldTerminateSelector:]
+	0x193a9e034 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication _shouldTerminate]
+	0x193bb50ac - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSAppleEventHandling) _handleAEQuit]
+	0x193881314 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+	0x1914da9d8 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+	0x1914da838 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : _NSAppleEventManagerGenericHandler
+	0x196946874 - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : _AppleEventsCheckInAppWithBlock
+	0x1969461a0 - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : _AppleEventsCheckInAppWithBlock
+	0x19693f240 - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : aeProcessAppleEvent
+	0x199ce150c - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : AEProcessAppleEvent
+	0x19387c730 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x19387b5b4 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x19386f9e4 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x193846e28 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x107740894 - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x107740bcc - /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity : main
+	0x1901f3e50 - /usr/lib/dyld : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x6294319104x from 0x8246540928x
+Pkilling 0x6292172800x from 0x8246540928x
+Pkilling 0x10951487488x from 0x8246540928x
+Entering thread summarizer pause from 0x8246540928x
+Finished thread summarizer pause from 0x8246540928x.
+Failed to create breadcrumb file (null)/crash_hash_0x0
+debugger-agent: Unable to listen on 39
+
+Waiting for dumping threads to resume
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x106e9c190):0x106e9c180  28 00 80 52 88 22 00 39 74 2a 40 f9 f4 00 00 b4  (..R.".9t*@.....
+0x106e9c190  88 22 40 39 68 00 00 35 80 02 40 f9 82 ba 42 94  ."@9h..5..@...B.
+0x106e9c1a0  e0 03 14 aa 33 b6 42 94 7f 2a 00 f9 60 26 40 f9  ....3.B..*..`&@.
+0x106e9c1b0  80 00 00 b4 08 00 40 f9 08 05 40 f9 00 01 3f d6  ......@...@...?.
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Obtained 28 stack frames.
+#0  0x00000106e9c190 in asio::detail::resolver_service_base::base_shutdown()
+#1  0x00000106e9a698 in core::unique_ptr<asio::io_context>::~unique_ptr()
+#2  0x00000106e85764 in IOService::~IOService()
+#3  0x00000106e00240 in AssetImportWorkerClient::~AssetImportWorkerClient()
+#4  0x00000106d90554 in core::unique_ptr<AssetImportWorkerClient>::~unique_ptr()
+#5  0x0000019040805c in __cxa_finalize_ranges
+#6  0xc551800190407df0 in exit
+#7  0x5b3f000107741f8c in -[EditorApplication applicationShouldTerminate:]
+#8  0x00000193a9eb28 in -[NSApplication _docController:shouldTerminate:]
+#9  0xb11a800193a9e9d8 in __91-[NSDocumentController(NSInternal) _closeAllDocumentsWithDelegate:shouldTerminateSelector:]_block_invoke
+#10 0xba69800193a9e6d8 in -[NSDocumentController(NSInternal) _closeAllDocumentsWithDelegate:shouldTerminateSelector:]
+#11 0xdf00800193a9e318 in -[NSDocumentController(NSInternal) __closeAllDocumentsWithDelegate:shouldTerminateSelector:]
+#12 0x1b6a000193a9e034 in -[NSApplication _shouldTerminate]
+#13 0xee61000193bb50ac in -[NSApplication(NSAppleEventHandling) _handleAEQuit]
+#14 0x655000193881314 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#15 0x31748001914da9d8 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#16 0x70448001914da838 in _NSAppleEventManagerGenericHandler
+#17 0x92b800196946874 in _AppleEventsCheckInAppWithBlock
+#18 0x5e1f0001969461a0 in _AppleEventsCheckInAppWithBlock
+#19 0x881f80019693f240 in aeProcessAppleEvent
+#20 0xe00d000199ce150c in AEProcessAppleEvent
+#21 0x1d6380019387c730 in _DPSNextEvent
+#22 0xe71b00019387b5b4 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#23 0xa15400019386f9e4 in -[NSApplication run]
+#24 0xee6a800193846e28 in NSApplicationMain
+#25 0xc368000107740894 in EditorMain(int, char const**)
+#26 0x00000107740bcc in main
+#27 0x000001901f3e50 in start
